@@ -19,7 +19,7 @@ git clone https://github.com/crimanvel/zappyrent.git
 cd zappyrent
 npm install
 ``
-Running the App
+### Running the App
 Start the development server:
 ``
 npm run start:dev
@@ -31,7 +31,7 @@ User Registration
 POST /users
 Register a new user by sending JSON with username and password.
 
-Authentication
+### Authentication
 POST /auth/login
 Log in with username and password to receive a JWT token.
 
@@ -54,7 +54,7 @@ Cover Image Upload
 POST /upload/cover
 Upload a cover image file. The uploaded image will be stored in the uploads folder, and the response will include the URL to access it.
 
-Notes
+### Notes
 Data is stored in memory; restarting the server will reset all users and books.
 
 Images uploaded via /upload/cover are served statically at /uploads/{filename}.
@@ -65,7 +65,7 @@ The project uses class-validator for input validation; invalid inputs will retur
 
 Swagger documentation is available at http://localhost:3000/api.
 
-How to Test
+### How to Test
 Use Postman, Insomnia, or any HTTP client:
 
 Register a user with POST /users.
