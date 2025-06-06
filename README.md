@@ -16,7 +16,11 @@ Allows users to register, log in, and manage their books with JWT authentication
 
 ``
 git clone https://github.com/crimanvel/zappyrent.git
+``
+``
 cd zappyrent
+``
+``
 npm install
 ``
 ### Running the App
