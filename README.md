@@ -9,20 +9,21 @@ Allows users to register, log in, and manage their books with JWT authentication
 
 ### Prerequisites
 
-- Node.js (v14+ recommended)
+- Node.js (v14+ recommended)  
 - npm or yarn
 
 ### Installation
 
-``bash
+``
 git clone https://github.com/crimanvel/zappyrent.git
 cd zappyrent
-npm install``
+npm install
+``
 Running the App
 Start the development server:
-
-``bash
-npm run start:dev``
+``
+npm run start:dev
+``
 The server will run at http://localhost:3000.
 
 API Endpoints
@@ -65,7 +66,7 @@ The project uses class-validator for input validation; invalid inputs will retur
 Swagger documentation is available at http://localhost:3000/api.
 
 How to Test
-Use Postman, Insomnia, or any HTTP client.
+Use Postman, Insomnia, or any HTTP client:
 
 Register a user with POST /users.
 
@@ -76,4 +77,3 @@ Include the token as Authorization: Bearer <token> header for all /books and /up
 Test CRUD operations on /books.
 
 Upload cover images and use the returned URL in your book entries.
-
